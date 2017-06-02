@@ -1,7 +1,6 @@
 
 cassandra-driver
 simplejson
-pandas
 jsonpickle
 sqlalchemy
 psycopg2
