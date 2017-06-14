@@ -17,6 +17,6 @@ RUN yum -y update
 
 COPY app-requirements.txt /tmp/app-requirements.txt
 
-RUN pip3 install -r /tmp/app-requirements.txt
+RUN  source /opt/rh/rh-python35/enable; pip3 install -r /tmp/app-requirements.txt
 # ; rm -rf /tmp;
 
