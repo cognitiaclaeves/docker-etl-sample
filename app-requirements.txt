@@ -4,4 +4,7 @@ simplejson
 jsonpickle
 sqlalchemy
 psycopg2
+cython
+numpy
+pandas
 
